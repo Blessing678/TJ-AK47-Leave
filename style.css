@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f9f4;
+  margin: 0;
+}
+
+header {
+  background: green;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+.form-section {
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+}
+
+button {
+  background: green;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.post {
+  background: white;
+  padding: 10px;
+  margin-top: 10px;
+  border-left: 5px solid green;
+}
+
+.post img {
+  max-width: 100%;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+#loginScreen {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#loginScreen input {
+  padding: 10px;
+  margin: 10px;
+}
+

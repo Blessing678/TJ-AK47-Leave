@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TJ AK47 Leave</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="loginScreen">
+  <h2>Enter Password</h2>
+  <input type="password" id="passwordInput" placeholder="Enter password">
+  <button onclick="checkPassword()">Enter</button>
+</div>
+
+<div id="mainContent" style="display:none;">
+  <header>
+    <h1>🌱 TJ AK47 Leave</h1>
+    <p>Sharing my daily projects updates</p>
+  </header>
+
+  <main>
+    <section class="form-section">
+      <h2>Add New Post</h2>
+      <input type="text" id="title" placeholder="Post title">
+      <textarea id="content" placeholder="Write something..."></textarea>
+      <input type="file" id="image" accept="image/*">
+      <button onclick="addPost()">Post</button>
+    </section>
+
+    <section class="posts" id="posts">
+      <h2>Posts</h2>
+    </section>
+  </main>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
